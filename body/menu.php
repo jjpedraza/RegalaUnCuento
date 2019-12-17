@@ -15,22 +15,19 @@
 <form>
 <div><input type='text' name='CorreoUser' placeholder='Tu Correo' style='color:#FF5E00;'></div>
 <div><label>Passoword:</label><input type='password' name='PasswordUser' style='color:#FF5E00;'></div>
-<div class='btn btn-Primary' style='font-size: 10pt;
-
-font-family: Regular;
-
-width: 63px;
-
-margin-right: 0px;
-
-text-align: center;'>Entrar</div>
-<div class='btn btn-Default' style='font-size: 9pt;
-
-font-family: Light;
-
-width: 59px;
-
-margin-left: 0px;'><a href='' style='color:white; text-decoration:none;display:block;'>Registrarse</a></div>
+<div class='btn btn-Primary' style='
+    font-size: 10pt;
+    font-family: Regular;
+    width: 63px;
+    margin-right: 0px;
+    text-align: center;'>
+Entrar</div>
+<div class='btn btn-Default' style='
+    font-size: 9pt;
+    font-family: Regular;
+    width: 59px;
+    margin-left: 0px;'>
+    <a href='registrate.php' style='color:white; text-decoration:none;display:block;'>Registrarse</a></div>
 <br>
 <a href=''>¿No recuerdo mi password?</a>
 

@@ -15,12 +15,21 @@ body{
     margin:0px;
 }
 
-form div {
-    width:30%;
+form div, #LoginRegistrate div  {
+    width:90%;
+}
+
+form div input, #LoginRegistrate div input {
+    width:100%;
+}
+
+
+form div , #LoginRegistrate div {
+  
     display: inline-block;
     margin:10px;
 }
-form div  label {
+form div  label, #LoginRegistrate div label {
     font-family: Light;
     font-size:8pt;
     color:gray;
@@ -84,19 +93,25 @@ input[type="submit"]
 }
 
 #MenuVertical img:hover {opacity: 0.6;}
-
+#LoginRegistrate div {width:40%; text-align: center;}
+#LoginRegistrate div table{width:100%;}
+#LoginRegistrate div input {width:100%;}
+#LoginRegistrate {text-align: center;}
+#LoginRegistrate div input:hover {
+    background-color:white;
+}
 #Menu {
-    background-color: #FF5E00;
+    background-color: #0084A4;
     width:100%;
     height:50px;
 }
 #LoginUser{
-    background-color:rgb(253, 228, 204);
+    background-color:rgb(255, 255, 255);
     width: 200px;
     position: absolute;
     right: 5px;    
     border-radius: 4px;
-        box-shadow: -1px 0px 15px -1px rgb(255, 94, 0);
+        box-shadow: -1px 0px 15px -1px rgb(0, 132, 164);
     top: 30px;
     opacity: 1;
     display: none;
@@ -112,14 +127,9 @@ input[type="submit"]
 }
 
 @media only screen and (max-width:800px){
-    form div {
-        width:40%;
+    #LoginRegistrate div {
+        width:90%;
     }
-
-    form div input {
-        width:100%;
-    }
-
 
 }
 
@@ -127,13 +137,5 @@ input[type="submit"]
 
 
 @media only screen and (max-width:600px){
-    form div {
-        width:90%;
-    }
-
-    form div input {
-        width:100%;
-    }
-
-
+   
 }
