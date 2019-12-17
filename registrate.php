@@ -53,7 +53,7 @@
 </td></tr></table>
 </div>
 
-<div>
+<div style='background-color:transparent;'>
     <button name='BtnGuardar'  id='BtnGuardar' class='btn btn-Primary' style='width:100%; height:69px; font-size:16pt;'> Registrarse </button>
 </div>
 </section>
